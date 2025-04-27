@@ -1,7 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>
-    Rehmall
-  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rehmall | Android Developer</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
+<body>
 
-<p>Welcome to Rehmall</p>
+<div class="loader-wrapper">
+  <div class="loader"></div>
+</div>
+
+<canvas id="particles"></canvas>
+
+<div class="main-container">
+
+  <section class="home-section snap-section" id="home">
+    <div class="container">
+      <h1 class="animate-slide">Hi, I'm <span>Rehmall</span></h1>
+      <p class="animate-slide">Android Developer | App Creator</p>
+      <a href="#portfolio" class="btn animate-fade">See My Work ↓</a>
+    </div>
+  </section>
+
+  <section class="portfolio-section snap-section" id="portfolio">
+    <div class="container">
+      <h2 class="animate-slide">My Apps</h2>
+      <div class="projects">
+        <div class="project animate-fade">
+          <img src="images/RTE.png" alt="RTE File Manager">
+          <h3>RTE File Manager</h3>
+          <p>Efficiently manage your files and folders with a simple and sleek interface.</p>
+          <a href="https://play.google.com/store/apps/details?id=apps.rehmall.com.rte_file_manager" class="btn" target="_blank">View on Play Store</a>
+        </div>
+
+        <div class="project animate-fade">
+          <img src="images/tasbee_counter_logo.png" alt="Tasbeeh Counter">
+          <h3>Tasbeeh Counter - Daily Ibadat</h3>
+          <p>Keep track of your daily ibadat with an easy-to-use tasbeeh counter.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.rehmall.apps.tasbee_counter" class="btn" target="_blank">View on Play Store</a>
+        </div>
+
+        <div class="project animate-fade">
+          <img src="images/tasbeeh_fatima_logo.png" alt="Tasbeeh Fatima">
+          <h3>Tasbeeh Fatima - Daily Ibadat</h3>
+          <p>Specialized tasbeeh counter following the teachings of Tasbeeh Fatima.</p>
+          <a href="https://play.google.com/store/apps/details?id=apps.rehmall.com.tasbee_fatima" class="btn" target="_blank">View on Play Store</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rehmall. All Rights Reserved</p>
+  </footer>
+
+</div>
+
+<div class="cursor"></div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
